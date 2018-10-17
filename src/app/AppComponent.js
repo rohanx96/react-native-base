@@ -1,6 +1,7 @@
 //@flow
 import React, { Component } from "react";
 import { Modal, View, Text, SafeAreaView } from "react-native";
+import NavigationComponent from "./../navigation/NavigationComponent";
 
 const defaultState = {
   isInitialised: false
@@ -20,10 +21,8 @@ export default class AppComponent extends Component<{}, {}> {
     if (this.props.isRehydrated) {
       return (
         <SafeAreaView style={{ flex: 1 }}>
+          <NavigationComponent />
           <View>
-            <Text style={{ alignSelf: "center" }}>
-              Add your custom component here
-            </Text>
             <Modal
               animationType="slide"
               transparent={true}
