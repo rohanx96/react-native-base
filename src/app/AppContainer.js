@@ -1,4 +1,3 @@
-//@flow
 import { connect } from "react-redux";
 import AppComponent from "./AppComponent";
 import { closeBottomSheet } from "./AppAction";

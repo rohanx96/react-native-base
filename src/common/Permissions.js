@@ -1,13 +1,12 @@
-//@flow
 import { PermissionsAndroid } from "react-native";
 
-export function requestPermissions(
+export default function requestPermissions(
   permissions,
   onGranted,
   onDenied,
   onDeniedForever
 ) {
-  let checks = [];
+  const checks = [];
   for (let index = 0; index < permissions.length; index++) {
     checks[index] = PermissionsAndroid.check(permissions[index]);
   }
@@ -20,19 +19,18 @@ export function requestPermissions(
     });
     if (shouldShowRationale) {
       PermissionsAndroid.requestMultiple(permissions).then(
-        result => {
-          var isGranted = true;
-          for (var i = 0; i < permissions.length; i++) {
-            var resultIndividual = result[permissions[i]];
+        permissionResult => {
+          let isGranted = true;
+          for (let i = 0; i < permissions.length; i++) {
+            const resultIndividual = permissionResult[permissions[i]];
             if (resultIndividual !== PermissionsAndroid.RESULTS.GRANTED) {
               if (
                 resultIndividual === PermissionsAndroid.RESULTS.NEVER_ASK_AGAIN
               ) {
                 onDeniedForever();
                 return;
-              } else {
-                isGranted = false;
               }
+              isGranted = false;
             }
           }
           if (isGranted) {
@@ -41,7 +39,7 @@ export function requestPermissions(
             onDenied();
           }
         },
-        error => {}
+        error => console.log(error)
       );
     } else {
       onGranted();
