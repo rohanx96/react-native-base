@@ -1,5 +1,5 @@
 {
-  "name": "RandomTrivia",
+  "name": "react-native-base",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -11,8 +11,6 @@
     "react": "16.6.3",
     "react-native": "0.58.6",
     "react-redux": "6.0.1",
-    "reactotron-react-native": "^2.1.0",
-    "reactotron-redux": "^2.1.0",
     "redux": "^4.0.0",
     "redux-persist": "^5.10.0",
     "redux-thunk": "^2.3.0"
