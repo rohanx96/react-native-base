@@ -4,22 +4,33 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "check-updates": "npm-check"
   },
   "dependencies": {
-    "react": "16.5.0",
-    "react-native": "0.57.2",
-    "react-redux": "^5.0.7",
+    "react": "16.6.3",
+    "react-native": "0.58.6",
+    "react-redux": "6.0.1",
+    "reactotron-react-native": "^2.1.0",
+    "reactotron-redux": "^2.1.0",
     "redux": "^4.0.0",
     "redux-persist": "^5.10.0",
-    "redux-thunk": "^2.3.0",
-    "reactotron-react-native": "^2.1.0",
-    "reactotron-redux": "^2.1.0"
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
-    "babel-jest": "23.6.0",
-    "jest": "23.6.0",
-    "metro-react-native-babel-preset": "0.48.1",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "^24.1.0",
+    "metro-react-native-babel-preset": "^0.52.0",
+    "npm-check": "^5.9.0",
+    "prettier": "^1.16.4",
     "react-test-renderer": "16.5.0"
   },
   "jest": {
