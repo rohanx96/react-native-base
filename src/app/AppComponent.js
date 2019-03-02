@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Modal, View, Text, SafeAreaView } from "react-native";
+import Icon, { iconFamily } from "../common/icons";
 
 const defaultState = {
   isInitialised: false
@@ -23,6 +24,7 @@ export default class AppComponent extends Component {
             <Text style={{ alignSelf: "center" }}>
               Add your custom component here
             </Text>
+            <Icon family={iconFamily.materialCommunity} name="adobe" />
             <Modal
               animationType="slide"
               transparent
