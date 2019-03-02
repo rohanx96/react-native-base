@@ -1,4 +1,4 @@
-package com.randomtrivia;
+package com.reactnativeapp;
 
 import android.app.Application;
 
