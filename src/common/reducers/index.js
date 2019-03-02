@@ -1,13 +1,12 @@
-//@flow
-import { appReducer } from "./../../app/AppReducer";
+import { persistReducer } from "redux-persist";
 import { combineReducers } from "redux";
-import { PersistReducer } from "./PersistReducer";
-import { persistReducer, createTransform } from "redux-persist";
 import storage from "redux-persist/lib/storage";
+import appReducer from "../../app/AppReducer";
+import PersistReducer from "./PersistReducer";
 
 const persistConfig = {
   key: "root",
-  storage: storage,
+  storage,
   whitelist: ["persist"],
   debug: true
 };

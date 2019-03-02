@@ -1,6 +1,5 @@
-//@flow
 import { ACTION_TYPE } from "./AppAction";
-import createReducer from "./../common/CreateReducer";
+import createReducer from "../common/CreateReducer";
 
 const initState = {
   isBSOpen: false,
@@ -8,7 +7,7 @@ const initState = {
   isBSTouchoutsideClose: true,
   renderBottomsheet: () => {}
 };
-export const appReducer = createReducer(initState, {
+export default createReducer(initState, {
   [ACTION_TYPE.openBottomSheet](state, action) {
     return Object.assign({}, state, {
       isBSOpen: true,
@@ -25,9 +24,9 @@ export const appReducer = createReducer(initState, {
       renderBottomsheet: action.payload
     });
   },
-  ['persist/REHYDRATE'](state, action) {
+  "persist/REHYDRATE": function onRehydrate(state) {
     return Object.assign({}, state, {
-      isRehydrated : true
-    })
+      isRehydrated: true
+    });
   }
 });

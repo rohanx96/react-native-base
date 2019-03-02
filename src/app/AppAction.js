@@ -1,7 +1,6 @@
-//@flow
 export const ACTION_TYPE = {
   openBottomSheet: "OPEN_BOTTOMSHEET",
-  closeBottomSheet: "CLOSE_BOTTOMSHEET",
+  closeBottomSheet: "CLOSE_BOTTOMSHEET"
 };
 
 export function openBottomSheet(
@@ -12,9 +11,9 @@ export function openBottomSheet(
   return {
     type: ACTION_TYPE.openBottomSheet,
     payload: {
-      renderBottomsheet: renderBottomsheet,
-      isBackClose: isBackClose,
-      isTouchoutsideClose: isTouchoutsideClose
+      renderBottomsheet,
+      isBackClose,
+      isTouchoutsideClose
     }
   };
 }

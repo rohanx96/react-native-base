@@ -1,4 +1,3 @@
-//@flow
 import React, { Component } from "react";
 import { Modal, View, Text, SafeAreaView } from "react-native";
 import NavigationComponent from "./../navigation/NavigationComponent";
@@ -7,7 +6,7 @@ const defaultState = {
   isInitialised: false
 };
 
-export default class AppComponent extends Component<{}, {}> {
+export default class AppComponent extends Component {
   constructor(props) {
     super(props);
     this.state = defaultState;
@@ -25,7 +24,7 @@ export default class AppComponent extends Component<{}, {}> {
           <View>
             <Modal
               animationType="slide"
-              transparent={true}
+              transparent
               visible={this.props.isBSOpen}
               onRequestClose={() => {
                 if (this.props.isBSBackClose) {
@@ -47,8 +46,7 @@ export default class AppComponent extends Component<{}, {}> {
           </View>
         </SafeAreaView>
       );
-    } else {
-      return <View style={{ flex: 1 }} />;
     }
+    return <View style={{ flex: 1 }} />;
   }
 }
