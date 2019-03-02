@@ -1,11 +1,11 @@
 // @flow
-import AppContainer from "./src/app/AppContainer";
 import React, { Component } from "react";
 import { Provider } from "react-redux";
 import { store } from "./src/common/Store";
+import AppContainer from "./src/app/AppContainer";
 
-export default class App extends Component<{}, {}> {
-  constructor(props) {
+export default class App extends Component {
+  constructor() {
     super();
     console.disableYellowBox = true;
   }

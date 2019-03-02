@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Modal, View, Text, SafeAreaView } from "react-native";
 import Icon, { iconFamily } from "../common/icons";
+import TextStyles from "../common/styles/TextStyles";
 
 const defaultState = {
   isInitialised: false
@@ -20,9 +21,19 @@ export default class AppComponent extends Component {
     if (this.props.isRehydrated) {
       return (
         <SafeAreaView style={{ flex: 1 }}>
-          <View>
-            <Text style={{ alignSelf: "center" }}>
-              Add your custom component here
+          <View style={{ padding: 24 }}>
+            <Text style={[TextStyles.h1, { alignSelf: "center" }]}>
+              Header 1
+            </Text>
+            <Text style={[TextStyles.h2, { alignSelf: "center" }]}>
+              Header 2
+            </Text>
+            <Text style={[TextStyles.h3, { alignSelf: "center" }]}>
+              Header 3
+            </Text>
+            <Text style={[TextStyles.body, { alignSelf: "center" }]}>
+              Lorem ipsum is a placeholder text. Placeholder text is used to
+              display how real text would look
             </Text>
             <Icon family={iconFamily.materialCommunity} name="adobe" />
             <Modal
