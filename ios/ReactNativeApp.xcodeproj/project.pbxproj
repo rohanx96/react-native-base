@@ -28,14 +28,18 @@
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* ReactNativeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativeAppTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
+		59F6F7CE7E2E4EBCBC06D23A /* Manrope-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1E25AD4CAD045FF9FAF7A76 /* Manrope-Light.otf */; };
+		7217BEC86EC94B76946CA7EE /* Manrope-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB313A7B6DE04562AA83C793 /* Manrope-Medium.otf */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		ABB47D3D718041438382BE20 /* Manrope-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42FDAD837D84372AA5F9DE2 /* Manrope-Regular.otf */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
-		D048EEC5222B215D005BAB34 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D048EEC2222B215D005BAB34 /* MaterialCommunityIcons.ttf */; };
-		D048EEC6222B215D005BAB34 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D048EEC2222B215D005BAB34 /* MaterialCommunityIcons.ttf */; };
-		D048EEC7222B215D005BAB34 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D048EEC3222B215D005BAB34 /* MaterialIcons.ttf */; };
-		D048EEC8222B215D005BAB34 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D048EEC3222B215D005BAB34 /* MaterialIcons.ttf */; };
-		D048EEC9222B215D005BAB34 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D048EEC4222B215D005BAB34 /* Ionicons.ttf */; };
-		D048EECA222B215D005BAB34 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D048EEC4222B215D005BAB34 /* Ionicons.ttf */; };
+		ADE7D045502C4134A1ED0AF0 /* Manrope-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 03BB31065FBE43E58572A72D /* Manrope-Semibold.otf */; };
+		D048EF54222B2AB8005BAB34 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D048EEC4222B215D005BAB34 /* Ionicons.ttf */; };
+		D048EF55222B2ABB005BAB34 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D048EEC2222B215D005BAB34 /* MaterialCommunityIcons.ttf */; };
+		D048EF56222B2ABF005BAB34 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D048EEC4222B215D005BAB34 /* Ionicons.ttf */; };
+		D048EF57222B2AC2005BAB34 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D048EEC3222B215D005BAB34 /* MaterialIcons.ttf */; };
+		D048EF58222B2AC2005BAB34 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D048EEC3222B215D005BAB34 /* MaterialIcons.ttf */; };
+		D048EF59222B2AC5005BAB34 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D048EEC2222B215D005BAB34 /* MaterialCommunityIcons.ttf */; };
 		D0B9CB7D2229CCE40006BACA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B9CB752229CCE40006BACA /* AppDelegate.m */; };
 		D0B9CB7E2229CCE40006BACA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B9CB752229CCE40006BACA /* AppDelegate.m */; };
 		D0B9CB7F2229CCE40006BACA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B9CB762229CCE40006BACA /* main.m */; };
@@ -45,7 +49,6 @@
 		D0B9CB892229CD3E0006BACA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B9CB872229CD3E0006BACA /* LaunchScreen.xib */; };
 		D0B9CB8A2229CD3E0006BACA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B9CB872229CD3E0006BACA /* LaunchScreen.xib */; };
 		D0C68C5C2229C5980043C75B /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		D0C68C5D2229C6000043C75B /* libcxxreact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA91DF850E9000B6D8A /* libcxxreact.a */; };
 		D0C68CD92229C8C60043C75B /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C68CB32229C8C60043C75B /* JavaScriptCore.framework */; };
 		D0D143142229D045009B7B19 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0B9CB7C2229CCE40006BACA /* Info.plist */; };
 		D0D143172229D393009B7B19 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00E356F11AD99517003FC87E /* Info.plist */; };
@@ -350,6 +353,7 @@
 		00E356EE1AD99517003FC87E /* ReactNativeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ReactNativeAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeAppTests.m; sourceTree = "<group>"; };
+		03BB31065FBE43E58572A72D /* Manrope-Semibold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Manrope-Semibold.otf"; path = "../src/assets/fonts/Manrope-Semibold.otf"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RandomTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -361,6 +365,7 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
+		B42FDAD837D84372AA5F9DE2 /* Manrope-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Manrope-Regular.otf"; path = "../src/assets/fonts/Manrope-Regular.otf"; sourceTree = "<group>"; };
 		D048EEC2222B215D005BAB34 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialCommunityIcons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		D048EEC3222B215D005BAB34 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		D048EEC4222B215D005BAB34 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
@@ -371,6 +376,8 @@
 		D0B9CB7C2229CCE40006BACA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0B9CB882229CD3E0006BACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D0C68CB32229C8C60043C75B /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F1E25AD4CAD045FF9FAF7A76 /* Manrope-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Manrope-Light.otf"; path = "../src/assets/fonts/Manrope-Light.otf"; sourceTree = "<group>"; };
+		FB313A7B6DE04562AA83C793 /* Manrope-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Manrope-Medium.otf"; path = "../src/assets/fonts/Manrope-Medium.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -387,7 +394,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0C68CD92229C8C60043C75B /* JavaScriptCore.framework in Frameworks */,
-				D0C68C5D2229C6000043C75B /* libcxxreact.a in Frameworks */,
 				D0C68C5C2229C5980043C75B /* libReact.a in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				11D1A2F320CAFA9E000508D9 /* libRCTAnimation.a in Frameworks */,
@@ -608,6 +614,8 @@
 				00E356EF1AD99517003FC87E /* ReactNativeAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				8EB9050D4B48447C8C5CE520 /* Resources */,
+				D048EEF5222B28A7005BAB34 /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -623,6 +631,17 @@
 				2D02E4901E0B4A5D006451C7 /* ReactNativeApp-tvOSTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8EB9050D4B48447C8C5CE520 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F1E25AD4CAD045FF9FAF7A76 /* Manrope-Light.otf */,
+				FB313A7B6DE04562AA83C793 /* Manrope-Medium.otf */,
+				B42FDAD837D84372AA5F9DE2 /* Manrope-Regular.otf */,
+				03BB31065FBE43E58572A72D /* Manrope-Semibold.otf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		ADBDB9201DFEBF0600ED6528 /* Products */ = {
@@ -642,6 +661,13 @@
 				D048EEC3222B215D005BAB34 /* MaterialIcons.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D048EEF5222B28A7005BAB34 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -726,7 +752,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -1094,10 +1120,14 @@
 			files = (
 				D0D143142229D045009B7B19 /* Info.plist in Resources */,
 				D0B9CB832229CCE40006BACA /* Images.xcassets in Resources */,
-				D048EEC9222B215D005BAB34 /* Ionicons.ttf in Resources */,
-				D048EEC7222B215D005BAB34 /* MaterialIcons.ttf in Resources */,
-				D048EEC5222B215D005BAB34 /* MaterialCommunityIcons.ttf in Resources */,
+				D048EF57222B2AC2005BAB34 /* MaterialIcons.ttf in Resources */,
+				D048EF54222B2AB8005BAB34 /* Ionicons.ttf in Resources */,
 				D0B9CB892229CD3E0006BACA /* LaunchScreen.xib in Resources */,
+				59F6F7CE7E2E4EBCBC06D23A /* Manrope-Light.otf in Resources */,
+				7217BEC86EC94B76946CA7EE /* Manrope-Medium.otf in Resources */,
+				ABB47D3D718041438382BE20 /* Manrope-Regular.otf in Resources */,
+				D048EF55222B2ABB005BAB34 /* MaterialCommunityIcons.ttf in Resources */,
+				ADE7D045502C4134A1ED0AF0 /* Manrope-Semibold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1105,9 +1135,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D048EEC8222B215D005BAB34 /* MaterialIcons.ttf in Resources */,
-				D048EEC6222B215D005BAB34 /* MaterialCommunityIcons.ttf in Resources */,
-				D048EECA222B215D005BAB34 /* Ionicons.ttf in Resources */,
+				D048EF58222B2AC2005BAB34 /* MaterialIcons.ttf in Resources */,
+				D048EF59222B2AC5005BAB34 /* MaterialCommunityIcons.ttf in Resources */,
+				D048EF56222B2ABF005BAB34 /* Ionicons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1222,9 +1252,11 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ReactNativeAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1240,9 +1272,11 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ReactNativeAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1259,6 +1293,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/ReactNativeApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1277,6 +1312,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/ReactNativeApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1302,8 +1338,10 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/ReactNativeAppTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1328,8 +1366,10 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/ReactNativeAppTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1353,8 +1393,10 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "RandomTrivia-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1378,8 +1420,10 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "RandomTrivia-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
