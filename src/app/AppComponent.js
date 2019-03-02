@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Modal, View, Text, SafeAreaView } from "react-native";
+import SplashScreen from "react-native-splash-screen";
 import Icon, { iconFamily } from "../common/icons";
 import TextStyles from "../common/styles/TextStyles";
 
@@ -19,6 +20,7 @@ export default class AppComponent extends Component {
 
   render() {
     if (this.props.isRehydrated) {
+      SplashScreen.hide();
       return (
         <SafeAreaView style={{ flex: 1 }}>
           <View style={{ padding: 24 }}>
