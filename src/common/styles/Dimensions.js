@@ -16,3 +16,7 @@ export default {
   screenPadding: moderateScale(16, scaleFactor),
   itemPadding: moderateScale(12, scaleFactor)
 };
+
+export const getScaledDimension = dimensionValue => {
+  return moderateScale(dimensionValue, scaleFactor);
+};
