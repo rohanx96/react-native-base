@@ -1,44 +1,45 @@
 import { StyleSheet } from "react-native";
+import Dimensions from "./Dimensions";
 
 export default StyleSheet.create({
   h1: {
     fontFamily: "Manrope-Semibold",
-    fontSize: 40,
+    fontSize: Dimensions.ms40,
     color: "#333"
   },
   h2: {
     fontFamily: "Manrope-Medium",
-    fontSize: 32,
+    fontSize: Dimensions.ms32,
     color: "#333"
   },
   h3: {
     fontFamily: "Manrope-Medium",
-    fontSize: 24,
+    fontSize: Dimensions.ms24,
     color: "#333"
   },
   h4: {
     fontFamily: "Manrope-Medium",
-    fontSize: 20,
+    fontSize: Dimensions.ms20,
     color: "#333"
   },
   callToAction: {
     fontFamily: "Manrope-Medium",
-    fontSize: 18,
+    fontSize: Dimensions.ms18,
     color: "#333"
   },
   body: {
     fontFamily: "Manrope-Regular",
-    fontSize: 16,
+    fontSize: Dimensions.ms16,
     color: "#333"
   },
   subTitle: {
     fontFamily: "Manrope-Regular",
-    fontSize: 14,
+    fontSize: Dimensions.ms14,
     color: "#333"
   },
   footnote: {
     fontFamily: "Manrope-Regular",
-    fontSize: 12,
+    fontSize: Dimensions.ms12,
     color: "#333"
   }
 });

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import { Modal, View, Text, SafeAreaView, Dimensions } from "react-native";
+import { Modal, View, Text, SafeAreaView } from "react-native";
 import SplashScreen from "react-native-splash-screen";
-import { moderateScale, scale } from "react-native-size-matters";
 import Icon, { iconFamily } from "../common/icons";
 import TextStyles from "../common/styles/TextStyles";
 
