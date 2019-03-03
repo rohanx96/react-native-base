@@ -3,7 +3,7 @@ import { BackHandler } from "react-native";
 import AppNavigator from "./AppNavigator";
 import { setNavigator, resetTo } from "./NavigationAction";
 
-export default class NavigationComponent extends Component<ComponentProps> {
+export default class NavigationComponent extends Component {
   componentDidMount() {
     resetTo("Home");
     BackHandler.addEventListener("hardwareBackPress", this.onBackPress);

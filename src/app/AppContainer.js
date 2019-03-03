@@ -7,6 +7,9 @@ const mapStateToProps = state => ({
   isBSBackClose: state.app.isBSBackClose,
   isBSTouchoutsideClose: state.app.isBSTouchoutsideClose,
   renderBottomsheet: state.app.renderBottomsheet,
+  loading: state.app.isLoading,
+  topSafeAreaView: state.app.topSafeAreaView,
+  bottomSafeAreaView: state.app.bottomSafeAreaView,
   isRehydrated: state.app.isRehydrated
 });
 
