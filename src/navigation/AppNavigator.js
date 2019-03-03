@@ -1,8 +1,7 @@
-//@flow
-import Home from "../home/HomeComponent";
-import { createStackNavigator } from "react-navigation";
+import { createStackNavigator, createAppContainer } from "react-navigation";
 import { Easing, Animated } from "react-native";
 import { navigationActionTypes } from "./NavigationAction";
+import Home from "../home/HomeComponent";
 
 const transitionConfig = () => {
   return {
@@ -36,7 +35,7 @@ const transitionConfig = () => {
       const slideDownBottom = { transform: [{ translateY }] };
       if (lastSceneIndex - index > 1) {
         // Do not transoform the screen being navigated to
-        if (scene.index === index) return;
+        if (scene.index === index) return null;
         // Hide all screens in between
         if (scene.index !== lastSceneIndex) return { opacity: 0 };
         // Slide top screen down
@@ -47,9 +46,8 @@ const transitionConfig = () => {
         scenes[scenes.length - 1].route.params.isPushed
       ) {
         return slideFromBottom;
-      } else {
-        return slideFromRight;
       }
+      return slideFromRight;
     }
   };
 };
@@ -69,7 +67,8 @@ const defaultGetStateForAction = AppNavigator.router.getStateForAction;
 AppNavigator.router.getStateForAction = (action, state) => {
   if (state && action.type === navigationActionTypes.BACK) {
     let backRouteIndex = null;
-    let routes, backRoute;
+    let routes;
+    let backRoute;
     if (action.key) {
       backRoute = state.routes.find(
         (route: *) => route.routeName === action.key
@@ -100,7 +99,7 @@ AppNavigator.router.getStateForAction = (action, state) => {
     }
     return {
       ...state,
-      routes: routes,
+      routes,
       index: routes.length - 1
     };
   }
@@ -116,4 +115,4 @@ AppNavigator.router.getStateForAction = (action, state) => {
   return defaultGetStateForAction(action, state);
 };
 
-export default AppNavigator;
+export default createAppContainer(AppNavigator);

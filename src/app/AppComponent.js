@@ -1,9 +1,7 @@
 import React, { Component } from "react";
-import { Modal, View, Text, SafeAreaView } from "react-native";
-import NavigationComponent from "./../navigation/NavigationComponent";
+import { Modal, View, SafeAreaView } from "react-native";
 import SplashScreen from "react-native-splash-screen";
-import Icon, { iconFamily } from "../common/icons";
-import TextStyles from "../common/styles/TextStyles";
+import NavigationComponent from "../navigation/NavigationComponent";
 
 const defaultState = {
   isInitialised: false

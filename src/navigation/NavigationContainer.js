@@ -1,13 +1,12 @@
-//@flow
-import NavigationComponent from "./NavigationComponent";
 import { connect } from "react-redux";
+import NavigationComponent from "./NavigationComponent";
 
 const mapStateToProps = state => ({
-  isBSOpen: state.app.isBSOpen,
+  isBSOpen: state.app.isBSOpen
 });
 
 const mapDispatchToProps = dispatch => ({
-  dispatch: dispatch
+  dispatch
 });
 
 export default connect(

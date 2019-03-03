@@ -1,5 +1,5 @@
-//@flow
 import { NavigationActions, StackActions } from "react-navigation";
+
 export const BACK = "BACK";
 export const REPLACE = "REPLACE";
 export const RESET = "RESET";
@@ -14,18 +14,18 @@ export const navigationActionTypes = {
 };
 
 let navigator;
-export function setNavigator(navigatorRef: any) {
+export function setNavigator(navigatorRef) {
   navigator = navigatorRef;
 }
 
-export function resetTo(routeName, params?) {
+export function resetTo(routeName, params) {
   navigator.dispatch(
     StackActions.reset({
       index: 0,
       actions: [
         NavigationActions.navigate({
-          routeName: routeName,
-          params: params
+          routeName,
+          params
         })
       ]
     })
@@ -46,8 +46,8 @@ export function goToScreen(flowType, uniqueID) {
     StackActions.push({
       routeName: "Screen",
       params: {
-        flowType: flowType,
-        uniqueID: uniqueID
+        flowType,
+        uniqueID
       }
     })
   );
