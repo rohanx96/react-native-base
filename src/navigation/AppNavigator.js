@@ -2,6 +2,7 @@ import { createStackNavigator, createAppContainer } from "react-navigation";
 import { Easing, Animated } from "react-native";
 import { navigationActionTypes } from "./NavigationAction";
 import Home from "../home/HomeComponent";
+import DrawerNavigator from "./DrawerNavigator";
 
 const transitionConfig = () => {
   return {
@@ -54,7 +55,7 @@ const transitionConfig = () => {
 
 const AppNavigator = createStackNavigator(
   {
-    Home: { screen: Home }
+    Home: DrawerNavigator
   },
   {
     headerMode: "none",
