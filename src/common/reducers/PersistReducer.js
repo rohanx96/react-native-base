@@ -1,5 +1,5 @@
 import { ACTION_TYPE } from "../actions/PersistAction";
-import createReducer from "../CreateReducer";
+import createReducer from "../../utils/CreateReducer";
 
 const initState = { selectedPrimaryFilter: undefined };
 export default createReducer(initState, {

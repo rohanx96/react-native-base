@@ -1,5 +1,5 @@
 import { ACTION_TYPE } from "./AppAction";
-import createReducer from "../common/CreateReducer";
+import createReducer from "../utils/CreateReducer";
 
 const initState = {
   isBSOpen: false,
