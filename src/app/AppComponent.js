@@ -8,11 +8,13 @@ import {
   ActivityIndicator
 } from "react-native";
 import SplashScreen from "react-native-splash-screen";
+import FlashMessage, { showMessage } from "react-native-flash-message";
 import Icon, { iconFamily } from "../common/icons";
 import TextStyles from "../common/styles/TextStyles";
 import ThemeStyle from "../common/styles/ThemeStyle";
 import Button from "../components/Button";
 import Dimensions, { getScaledDimension } from "../common/styles/Dimensions";
+import { errorMessage } from "../utils";
 
 const defaultState = {
   isInitialised: false
@@ -54,6 +56,12 @@ export default class AppComponent extends Component {
                 display how real text would look
               </Text>
               <Icon family={iconFamily.materialCommunity} name="adobe" />
+              <Button
+                name="Show Message"
+                onPress={() => {
+                  showMessage(errorMessage());
+                }}
+              />
               <Modal
                 animationType="slide"
                 transparent
@@ -123,6 +131,7 @@ export default class AppComponent extends Component {
               </Modal>
             </View>
           </SafeAreaView>
+          <FlashMessage position="top" />
         </Fragment>
       );
     }

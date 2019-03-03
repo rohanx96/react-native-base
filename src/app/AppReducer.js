@@ -1,6 +1,5 @@
 import { ACTION_TYPE } from "./AppAction";
 import createReducer from "../utils/CreateReducer";
-import ThemeStyle from "../common/styles/ThemeStyle";
 
 const initState = {
   isBSOpen: false,
